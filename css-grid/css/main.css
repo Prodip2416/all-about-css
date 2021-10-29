@@ -1,0 +1,22 @@
+/* Put your code here */
+.grid {
+  display: grid;
+
+  /* grid-template-rows: 100px 200px;
+    grid-template-columns: 100px 150px auto; */
+
+  grid-template: 100px 200px / 150px auto 150px;
+}
+
+.grid > div:nth-child(1) {
+    grid-row: 2/3;
+    grid-column: 3/4;
+}
+/* .grid > div:nth-child(1) {
+    grid-row: 2/3;
+    grid-column: 1/2;
+} */
+/* .grid > div:nth-child(4) {
+    grid-row: 1 /2;
+    grid-column: 1/2;
+} */
