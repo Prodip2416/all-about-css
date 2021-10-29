@@ -1,0 +1,18 @@
+.grid{
+   
+    display: grid;
+    grid-template: 100px 100px/ 200px 200px 200px 200px;
+    grid-gap: 10px 10px;
+}
+.item-color{
+ background-color: rgb(202, 199, 199);
+}
+.grid div:nth-child(1){
+    order:5;
+}
+.grid div:nth-child(3){
+    order:-1;
+}
+.grid div:nth-child(5){
+    order:4;
+}
