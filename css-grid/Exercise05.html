@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>CSS3 Grids</title>
+  <style>
+    .grid {
+      display: grid;
+      grid-gap: 10px;  /* The gap is important for this task! */
+
+      /* ===
+       * 1.4) This will generate two columns because
+       * auto-fill prefers a fixed max size, here 200px,
+       * and only two of those fit.
+       * ===
+       */
+      /*width: 500px;*/
+      /*grid-template: 100px 100px / repeat(auto-fill, minmax(100px, 200px));*/
+
+
+      /* ===
+       * 2.2) This generates 4 columns because there is no
+       * fixed max size so the min size is used
+       * ===
+       */
+      width: 500px;
+       grid-template: 100px 100px / repeat(auto-fill, minmax(100px, 1fr));
+
+      /* width: 500px;
+      grid-template: 100px 100px / repeat(auto-fit, minmax(100px, 1fr)); */
+
+      /* width: 540px;
+      grid-template: 100px 100px
+        / repeat(auto-fill, minmax(100px, 1fr)); */
+
+    }
+
+    div {
+      background-color: #E0E0E0;
+    }
+
+  </style>
+</head>
+<body>
+  <main class="grid">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </main>
+</body>
+</html>
+

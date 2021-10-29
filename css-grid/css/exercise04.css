@@ -1,0 +1,24 @@
+.grid{
+    display: grid;
+    grid-template-rows: repeat(6,97px);
+    grid-template-columns: repeat(12,1fr);
+    grid-gap:5px;
+}
+.item{
+    background-color: cadetblue;
+}
+.item2{
+    background-color: cadetblue;
+}
+.item3{
+    background-color: cadetblue;
+}
+.item4{
+    background-color: cadetblue;
+}
+.item5{
+    background-color: cadetblue;
+}
+.item6{
+    background-color: cadetblue;
+}
