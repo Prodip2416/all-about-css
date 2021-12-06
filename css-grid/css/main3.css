@@ -1,0 +1,41 @@
+/* .grid {
+  display: grid;
+  grid-template: 100px auto / 200px auto 100px; */
+  /* justify-items: end; */
+  /* align-items: end; */
+
+  /* justify-content: start; */
+/* 
+  height: 300px;
+  align-content: start;
+} */
+
+
+/* exercise 11 start */
+
+/* .grid{
+  display: grid;
+  grid-template: 100px 100px / 200px 100px 300px;
+  height: 300px;
+  border: 1px solid gray;
+  justify-content: center;
+  align-content: end;
+} */
+/* .grid{
+  display: grid;
+  grid-template: 100px 100px / 200px 100px 300px;
+  height: 300px;
+  border: 1px solid gray;
+  justify-content:  space-between;
+  align-content: center;
+} */
+.grid{
+  display: grid;
+  grid-template: 100px 100px / 200px 100px 300px;
+  height: 300px;
+  border: 1px solid gray;
+  
+  justify-content: start;
+  align-content: start;
+  justify-items: end;
+}
