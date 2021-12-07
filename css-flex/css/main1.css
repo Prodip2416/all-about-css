@@ -1,0 +1,95 @@
+/*basic styles*/
+html,
+body {
+  margin: 0;
+}
+html {
+  background: #2c3e50;
+}
+body {
+  font-family: "Inconsolata", monospace;
+  color: white;
+  width: 80%;
+  margin: 0 auto;
+  padding: 2%;
+  line-height: 1.6;
+  text-align: center;
+  height: 3000px;
+}
+
+.flex-container {
+  border: 1px solid red;
+  max-width: 900px;
+  margin: auto;
+}
+
+.flex-item {
+  border: 2px solid white;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+  color: white;
+  margin: 0;
+  line-height: 1;
+  font-family: "Asap", sans-serif;
+}
+h1 {
+  font-size: 3em;
+}
+h2 {
+  font-size: 4em;
+  margin-bottom: 50px;
+}
+h3 {
+  font-size: 1.8em;
+  text-transform: uppercase;
+}
+p {
+  font-size: 1.5em;
+}
+
+/* Flexbox Staff */
+/* .flex-container {
+	height: 400px;
+	display: flex;
+	flex-flow: column;
+	/* flex-flow: row; */
+/* justify-content: center; */
+/* justify-content: end; */
+/* justify-content: start; */
+/* justify-conktent: space-around; */
+/* justify-content: space-between; */
+/* justify-content: space-evenly; */
+/* } */
+/* .flex-container {
+	height: 400px;
+	display: flex;
+	flex-flow: column-reverse;
+	justify-content: start;
+} */
+/* .flex-container {
+	height: 400px;
+	display: flex;
+	flex-flow: column;
+	align-items: end;
+	justify-content:space-around;
+} */
+/* .flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+} */
+
+.flex-container {
+  height: 400px;
+  display: flex;
+  flex-flow: row;
+}
+
+.flex-item1 {
+  /* align-self: center; */
+  order: -1;
+}
